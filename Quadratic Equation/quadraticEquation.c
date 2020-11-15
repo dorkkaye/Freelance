@@ -3,7 +3,7 @@
 
 void quadraticEq(double root1, double root2, int a, int b, int c, int d)
 {
-  d = pow(b, b) - 4*a*c;
+  d = b*b - 4*a*c;
 
   //Complex roots
   if (d < 0) 
