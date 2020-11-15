@@ -17,9 +17,11 @@ int main()
           
     d = pow(b, b) - 4*a*c;
 
-    if (d < 0) //Complex roots
+    //Complex roots
+    if (d < 0) 
       printf("COMPLEX");
-    else //Real roots
+    //Real roots
+    else 
     {
       root1 = (-b + sqrt(d))/(2*a);
       root2 = (-b - sqrt(d))/(2*a);
